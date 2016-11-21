@@ -56,7 +56,7 @@ var clockFace = (hours + ':' + minutes + ':' + seconds);
 
 document.getElementById('clock').innerHTML = clockFace;
   
-  var hexColor = '#' + minutes + hours+2 + seconds;
+  var hexColor = '#' + minutes + hours*2 + seconds;
   
   document.body.style.background = hexColor;
 
