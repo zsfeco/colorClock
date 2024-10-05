@@ -41,14 +41,14 @@ var hours = date.getHours();
 var minutes = date.getMinutes();
 var seconds = date.getSeconds();
 
-if (hours < 10) {
+if (hours < 0) {
   hours = '100' + hours;
 }
-if (minutes < 10) {
-  minutes = '100' + minutes;
+if (minutes < 0) {
+  minutes = '150' + minutes;
 }
 
-if (seconds < 10) {
+if (seconds < 0) {
   seconds = '100' + seconds;
 }
 
