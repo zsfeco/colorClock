@@ -42,14 +42,14 @@ var minutes = date.getMinutes();
 var seconds = date.getSeconds();
 
 if (hours < 10) {
-  hours = '0' + hours;
+  hours = '100' + hours;
 }
 if (minutes < 10) {
-  minutes = '0' + minutes;
+  minutes = '100' + minutes;
 }
 
 if (seconds < 10) {
-  seconds = '0' + seconds;
+  seconds = '100' + seconds;
 }
 
 var clockFace = (hours + ':' + minutes + ':' + seconds);
