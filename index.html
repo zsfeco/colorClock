@@ -41,6 +41,7 @@ var hours = date.getHours();
 var minutes = date.getMinutes();
 var seconds = date.getSeconds();
 
+<!--  
 if (hours > 0) {
   hours = '75' + hours;
 }
@@ -51,7 +52,8 @@ if (minutes > 0) {
 if (seconds > 0) {
   seconds = '40' + seconds;
 }
-
+-->
+  
 var clockFace = (hours + ':' + minutes + ':' + seconds);
 
 document.getElementById('clock').innerHTML = clockFace;
